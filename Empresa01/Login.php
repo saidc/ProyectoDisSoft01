@@ -67,12 +67,17 @@ function test_input($data) {
 <?php
 
 if($sw){
-
+/*
   define('DB_HOST', 'localhost');
   define('DB_USER', 'root');
   define('DB_PASS', '');
   define('DB_NAME', 'Empresa01');
+*/
 
+  define('DB_HOST', 'fdb14.biz.nf');
+  define('DB_USER', '2077544_empresa01');
+  define('DB_PASS', 'ProyectoDisSoft01');
+  define('DB_NAME', 'Empresa01');
 
   $mysqli = new mysqli(DB_HOST,DB_USER,DB_PASS, DB_NAME); // conexion con la base de datos
 
