@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
+  <meta charset="utf-8">
 <style>
 .error {color: #FF0000;}
 </style>
